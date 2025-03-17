@@ -1,17 +1,16 @@
 <?php
 
-$xml = simplexml_load_file('libros.xml');
+$xml = simplexml_load_file('ej9.xml');
 
 $librosPosteriores = 0;
 
 foreach ($xml->libro as $libro) {
-    $anio = (int)$libro->anio; 
 
-    if ($anio > 2000) {
+    if ($libro->anio > 2000) {
         $titulo = $libro->titulo;
         $autor = $libro->autor;
 
-        echo "Título: $titulo, Autor: $autor, Editado en: $anio<br>";
+        echo "Título: $titulo, Autor: $autor, Editado en: $libro->anio<br>";
         $librosPosteriores++;
     }
 }
@@ -19,7 +18,7 @@ foreach ($xml->libro as $libro) {
 if ($librosPosteriores == 0) {
     echo "No hay libros editados después del año 2000.";
 }else{
-    echo "hay " + $librosPosteriores + " libros editados después del año 2000";
+    echo "hay $librosPosteriores libros editados después del año 2000";
 
 
 }
