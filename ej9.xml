@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <libro>
+        <titulo>El gran Gatsby</titulo>
+        <autor>F. Scott Fitzgerald</autor>
+        <anio>1925</anio>
+    </libro>
+    <libro>
+        <titulo>Matar un ruiseñor</titulo>
+        <autor>Harper Lee</autor>
+        <anio>1960</anio>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <anio>1949</anio>
+    </libro>
+    <libro>
+        <titulo>Animal Farm</titulo>
+        <autor>George Orwell</autor>
+        <anio>1945</anio>
+    </libro>
+    <libro>
+        <titulo>Los juegos del hambre</titulo>
+        <autor>Suzanne Collins</autor>
+        <anio>2008</anio>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <anio>1997</anio>
+    </libro>
+    <libro>
+        <titulo>El Nombre de la Rosa</titulo>
+        <autor>Umberto Eco</autor>
+        <anio>1980</anio>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <anio>1981</anio>
+    </libro>
+    <libro>
+        <titulo>El alquimista</titulo>
+        <autor>Paulo Coelho</autor>
+        <anio>1988</anio>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <anio>2001</anio>
+    </libro>
+</library>
